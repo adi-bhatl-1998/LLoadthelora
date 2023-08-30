@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2style="background-color:tomato;">IMAGE_generation</h2>
+        <form action="/submit" method="post">
+            <label for="text_prompt"> text prompt</label><br>
+            <input type="text" id="text_prompt" name="text_prompt" value="0"><br>
+
+            <label for="inference steps">inference steps:</label><br>
+            <input type="text"  id="inference_steps" name="inference_steps" value="-"><br><br>
+
+            <label for="guidance_scale"> guidance scale</label><br>
+            <input type="text" id="guidance_scale" name="guidance_scale" value="0.7"><br>
+
+            <label for="strength"> strength</label><br>
+            <input type="text" id="strength" name="strength" value="0"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
